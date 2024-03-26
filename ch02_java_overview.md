@@ -25,6 +25,7 @@ The full name of JDK is Java Development Kit, which is a set of tools for Java d
 JRE stands for Java Runtime Environment, which includes JVM (Java Virtual Machine) and Java's core class library. It comprises the Java Virtual Machine (JVM) and the core class library required by Java programs. If you want to run a developed Java program, you only need to install JRE on the computer.
 
 
+
 ## Java Development Steps
 
 1. Write Java code in a file with the extension ".java", for example, "Hello.java".
