@@ -9,12 +9,13 @@
 * Java language is platform-independent. Compiled .class files can run on multiple systems, a feature known as platform independence.
 
 * Java language is interpreted.
+  
+  Interpreted languages: JavaScript, PHP, Java. Compiled languages: C/C++.
 
-* Interpreted languages: JavaScript, PHP, Java.
-
-* Compiled languages: C/C++. The difference is that in interpreted languages, the compiled code cannot be directly executed by the machine and requires an interpreter to execute, whereas in compiled languages, the compiled code can be directly executed by the machine.
+  The difference is that in interpreted languages, the compiled code cannot be directly executed by the machine and requires an interpreter to execute, whereas in compiled languages, the compiled code can be directly executed by the machine.
 
 
+## JDK, JRE
 
 
 
