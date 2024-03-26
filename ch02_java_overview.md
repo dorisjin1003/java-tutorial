@@ -16,6 +16,31 @@
 
 
 ## JDK, JRE
+### JDK Introduction
+
+The full name of JDK is Java Development Kit, which is a set of tools for Java development. JDK consists of JRE (Java Runtime Environment) plus Java development tools such as java, javac, javadoc, javap, etc. It is intended for use by Java developers.
+
+### JRE Introduction
+
+JRE stands for Java Runtime Environment, which includes JVM (Java Virtual Machine) and Java's core class library. It comprises the Java Virtual Machine (JVM) and the core class library required by Java programs. If you want to run a developed Java program, you only need to install JRE on the computer.
+
+
+## Java Development Steps
+
+1. Write Java code in a file with the extension ".java", for example, "Hello.java".
+2. Compile the Java file using the "javac" command to generate a ".class" file.
+3. Run the generated class file using the "java" command.
+
+
+
+
+
+
+
+
+
+
+
 
 
 
