@@ -53,9 +53,9 @@ JRE stands for Java Runtime Environment, which includes JVM (Java Virtual Machin
 In the console, pressing the tab key can achieve command completion.
 * \t: Represents a tab, providing alignment functionality.
 * \n: Represents a newline character.
-* \ : Represents a backslash character.
-* " : Represents a double quote character.
-* ' : Represents a single quote character.
+* \\ : Represents a backslash character.
+* \" : Represents a double quote character.
+* \' : Represents a single quote character.
 * \r: Represents a carriage return. System.out.println("timerring\r Beijing"); Note: Carriage return does not result in a newline.
 
 
