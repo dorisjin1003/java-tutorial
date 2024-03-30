@@ -54,8 +54,7 @@ Character type can represent a single character, and the character type is char.
 
 
 
-
-### Primitive Data Type Conversion
+## Primitive Data Type Conversion
 
 
 
