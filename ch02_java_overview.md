@@ -33,7 +33,19 @@ JRE stands for Java Runtime Environment, which includes JVM (Java Virtual Machin
 3. Run the generated class file using the "java" command.
 
 
+## Hints
 
+Java source files have the extension ".java". The basic component of a source file is a class, such as the "Hello" class in this example.
+
+The entry point for executing a Java application is the "main" method. It has a fixed syntax: "public static void main(String[] args)".
+
+Java language strictly distinguishes between uppercase and lowercase letters.
+
+A source file can have at most one public class. There is no limit to the number of other classes. Each class corresponds to one "class" file.
+
+If a source file contains a public class, the file name must be named after that class!
+
+A source file can have at most one public class. There is no limit to the number of other classes. You can also write the main method in a non-public class and then specify to run the non-public class, so the entry method is the non-public "main" method.
 
 
 
