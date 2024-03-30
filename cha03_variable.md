@@ -1,5 +1,3 @@
-#### chapter 03 Variable
-
 ### Data Types
 Java data types are divided into two major categories: primitive data types and reference types.
 
