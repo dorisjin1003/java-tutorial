@@ -35,24 +35,45 @@ JRE stands for Java Runtime Environment, which includes JVM (Java Virtual Machin
 
 ## Hints
 
-Java source files have the extension ".java". The basic component of a source file is a class, such as the "Hello" class in this example.
+* Java source files have the extension ".java". The basic component of a source file is a class, such as the "Hello" class in this example.
 
-The entry point for executing a Java application is the "main" method. It has a fixed syntax: "public static void main(String[] args)".
+* The entry point for executing a Java application is the "main" method. It has a fixed syntax: "public static void main(String[] args)".
 
-Java language strictly distinguishes between uppercase and lowercase letters.
+* Java language strictly distinguishes between uppercase and lowercase letters.
 
-A source file can have at most one public class. There is no limit to the number of other classes. Each class corresponds to one "class" file.
+* A source file can have at most one public class. There is no limit to the number of other classes. Each class corresponds to one "class" file.
 
-If a source file contains a public class, the file name must be named after that class!
+* If a source file contains a public class, the file name must be named after that class!
 
-A source file can have at most one public class. There is no limit to the number of other classes. You can also write the main method in a non-public class and then specify to run the non-public class, so the entry method is the non-public "main" method.
-
-
+* A source file can have at most one public class. There is no limit to the number of other classes. You can also write the main method in a non-public class and then specify to run the non-public class, so the entry method is the non-public "main" method.
 
 
+## Java Escape Characters
+In the console, pressing the tab key can achieve command completion.
+\t: Represents a tab, providing alignment functionality.
+\n: Represents a newline character.
+\ : Represents a backslash character.
+" : Represents a double quote character.
+' : Represents a single quote character.
+\r: Represents a carriage return. System.out.println("timerring\r Beijing"); Note: Carriage return does not result in a newline.
 
 
 
+## Java Code Conventions
+
+Class and method comments should be written in Javadoc format.
+
+Non-JavaDoc comments are often for maintainers of the code, focusing on explaining why the code is written that way, how to modify it, and any important considerations.
+
+Use tab for indentation, defaulting to moving the entire block to the right. Use Shift+Tab to move the entire block to the left.
+
+Operators and "=" should have a space on each side.
+
+Source files should use UTF-8 encoding.
+
+Line width should not exceed 80 characters.
+
+Code style preferences for continuation lines and line endings (!) recommend line endings style.
 
 
 
