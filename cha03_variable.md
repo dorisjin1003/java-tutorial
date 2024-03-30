@@ -1,4 +1,5 @@
 ### Data Types
+
 Java data types are divided into two major categories: primitive data types and reference types.
 
 1. Primitive data types consist of eight types:
@@ -19,7 +20,7 @@ Floating-point numbers consist of three components: the sign bit, the exponent, 
 
 The significand part may lose precision, resulting in accuracy loss (decimal numbers are all approximate values).
 
-# FloatDetail.java
+## FloatDetail.java
 * Similar to integer types, Java floating-point types also have fixed ranges and field lengths, unaffected by the specific operating system.
 
 * In Java, floating-point constants (specific values) default to double type. To declare a float constant, 'f' or 'F' must be appended after the value.
@@ -34,7 +35,11 @@ The significand part may lose precision, resulting in accuracy loss (decimal num
 
 
 ## Char type
-# CharDetail.java
+Character type can represent a single character, and the character type is char. Char occupies two bytes (can store Chinese characters). Multiple characters are represented using the String data type.
+
+
+
+## CharDetail.java
 * Character constants are enclosed in single quotes ('').
 
 * In Java, escape characters can be used to represent special characters after them. For example: char c3 = '\n'; represents the newline character.
