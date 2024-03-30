@@ -12,7 +12,7 @@ Java data types are divided into two major categories: primitive data types and 
 2. Reference types include classes, interfaces, and arrays.
 
 ## Integer type
-
+Integer constants (specific values) in Java default to int type. To declare a long constant, 'l' or 'L' must be appended after the value.
 
 ## Float type
 A brief explanation about the representation of floating-point numbers in computers: 
