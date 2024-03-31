@@ -68,3 +68,11 @@ Character type can represent a single character, and the character type is char.
 * Automatic Promotion Principle: The result of an expression is automatically promoted to the largest type among the operands involved.
 
 
+## Type casting
+* Inverse Process of Automatic Conversion: Explicit type conversion is the reverse process of automatic conversion, where a larger-capacity data type is converted to a smaller-capacity one.
+
+* Syntax: To perform explicit type conversion, you need to use the cast operator (), followed by the target data type. For example, (int) doubleValue will explicitly convert a double value to an integer.
+
+* Potential Loss of Precision or Overflow: Explicit type conversion may lead to loss of precision or overflow if the value being converted cannot be represented accurately in the target data type. It's essential to be cautious when performing explicit type conversion to avoid unintended consequences.
+
+* Use with char Type: While char type can store constant values from int, it cannot store variable values from int directly. Therefore, explicit type casting is required when assigning int variables to char variables.
