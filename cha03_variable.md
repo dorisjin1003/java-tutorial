@@ -54,7 +54,17 @@ Character type can represent a single character, and the character type is char.
 
 
 
-## Primitive Data Type Conversion
+### Primitive Data Type Conversion
 
+## Automatic type conversion
+* Automatic Promotion: When multiple data types are mixed in an operation, the system automatically converts all data to the type with the largest capacity before performing the calculation.
+
+* Assignment Compatibility: Assigning a larger-capacity data type to a smaller-capacity one will result in an error. Conversely, assigning a smaller-capacity data type to a larger-capacity one will result in automatic type conversion.
+
+* No Automatic Conversion between (byte, short) and char: There is no automatic conversion between byte, short, and char. However, byte, short, and char can all be used in calculations, and they are first converted to int when performing calculations.
+
+* Boolean Not Participating: Boolean type does not participate in type conversion.
+
+* Automatic Promotion Principle: The result of an expression is automatically promoted to the largest type among the operands involved.
 
 
