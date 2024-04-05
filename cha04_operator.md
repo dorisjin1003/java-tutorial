@@ -32,6 +32,9 @@ Used to combine multiple conditions (multiple relational expressions), the final
 * !a: Called negation or NOT operation. When a is true, the result is false; when a is false, the result is true.
 * a^b: Called logical XOR. When a and b are different, the result is true; otherwise, it is false.
 
+// For the short-circuit AND operator &&, if the first condition is false, the subsequent conditions are not evaluated.
+// For the logical AND operator &, if the first condition is false, the subsequent conditions are still evaluated.
+
 ## Ternary operator
 Basic syntax: 
 
