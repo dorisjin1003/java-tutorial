@@ -4,7 +4,7 @@
 ![image](https://github.com/dorisjin1003/java-tutorial/assets/158774060/ef2318cd-0dcd-4db9-a891-90ac5e913486)
 
 
-## Assignment operators
+## Assign operators
 
 1. Classification of assignment operators:
 
