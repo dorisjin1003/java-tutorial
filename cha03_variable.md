@@ -82,6 +82,7 @@ Character type can represent a single character, and the character type is char.
 
 
 ### Converting between primitive data types and String type
+## Intro
 From primitive type to String type:
 
 Syntax: Simply concatenate the value of the primitive type with an empty string "".
