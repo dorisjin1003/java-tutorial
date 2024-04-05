@@ -76,3 +76,16 @@ Character type can represent a single character, and the character type is char.
 * Potential Loss of Precision or Overflow: Explicit type conversion may lead to loss of precision or overflow if the value being converted cannot be represented accurately in the target data type. It's essential to be cautious when performing explicit type conversion to avoid unintended consequences.
 
 * Use with char Type: While char type can store constant values from int, it cannot store variable values from int directly. Therefore, explicit type casting is required when assigning int variables to char variables.
+
+
+
+
+
+### Converting between primitive data types and String type
+From primitive type to String type:
+
+Syntax: Simply concatenate the value of the primitive type with an empty string "".
+
+From String type to primitive data type:
+
+Syntax: Use the parseXX method of the corresponding wrapper class of the primitive type.
