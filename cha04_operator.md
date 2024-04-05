@@ -36,7 +36,14 @@ Used to combine multiple conditions (multiple relational expressions), the final
 // For the logical AND operator &, if the first condition is false, the subsequent conditions are still evaluated.
 
 ## Ternary operator
-Basic syntax: 
+Operation rules:
+
+If the condition expression is true, the result after the operation is expression1;
+If the condition expression is false, the result after the operation is expression2;
+
+Usage details:
+Expression1 and expression2 should be of the type that can be assigned to the receiving variable (or can be automatically converted).
+The ternary operator can be converted into an if-else statement.
 
 #### Operation rules:
 
