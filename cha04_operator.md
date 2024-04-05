@@ -51,8 +51,9 @@ The ternary operator can be converted into an if-else statement.
 
 
 
+
 ## Rules and conventions for naming identifiers
-# Naming rules for identifiers:
+### Naming rules for identifiers:
 
 * Consist of 26 English letters (both uppercase and lowercase), digits 0-9, or the dollar sign $.
 
