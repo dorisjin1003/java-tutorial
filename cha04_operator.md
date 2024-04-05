@@ -35,16 +35,16 @@ Used to combine multiple conditions (multiple relational expressions), the final
 ## Ternary operator
 Basic syntax: 
 
-# Operation rules:
+#### Operation rules:
 
 If the condition expression is true, the result after the operation is expression1;
 If the condition expression is false, the result after the operation is expression2;
 
-# Usage details:
+#### Usage details:
 Expression1 and expression2 should be of the type that can be assigned to the receiving variable (or can be automatically converted).
 The ternary operator can be converted into an if-else statement.
 
-# Operator precedence: 
+#### Operator precedence: 
 * Operators have different precedence levels, which determine the order of operations in an expression. Operators in the upper rows always have higher precedence than those in the lower rows.
 * Only unary operators and assignment operators are evaluated from right to left.
 * ![image](https://github.com/dorisjin1003/java-tutorial/assets/158774060/0a858f9a-655f-4cf1-9813-4852ba28a587)
