@@ -25,11 +25,12 @@ The result of relational operators is always a Boolean type, which means it's ei
 ## Logical operators
 Used to combine multiple conditions (multiple relational expressions), the final result is also a boolean value.
 
-* Short-circuit AND (&&), short-circuit OR (||), logical NOT (!).
-* Logical AND (&), logical OR (|), logical XOR (^).
-
-
-
+* a&b: & is called logical AND: Rule: When both a and b are true, the result is true; otherwise, it is false.
+* a&&b: && is called short-circuit AND: Rule: When both a and b are true, the result is true; otherwise, it is false.
+* a|b: | is called logical OR: Rule: When either a or b is true, the result is true; otherwise, it is false.
+* a||b: || is called short-circuit OR: Rule: When either a or b is true, the result is true; otherwise, it is false.
+* !a: Called negation or NOT operation. When a is true, the result is false; when a is false, the result is true.
+* a^b: Called logical XOR. When a and b are different, the result is true; otherwise, it is false.
 
 ## Ternary operator
 Basic syntax: 
