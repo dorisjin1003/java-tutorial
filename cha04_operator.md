@@ -8,15 +8,15 @@
 
 1. Classification of assignment operators:
 
-Basic assignment operator =
+  Basic assignment operator =
 
-Compound assignment operators +=, -=, *=, /=, %=, etc. One important one is +=; the usage of others follows the same principle.
+  Compound assignment operators +=, -=, *=, /=, %=, etc. One important one is +=; the usage of others follows the same principle.
 
 2. Characteristics of assignment operators:
 
-Compound assignment operators perform type conversion.
+  Compound assignment operators perform type conversion.
 
-byte b = 2; b+=3; b++;
+  byte b = 2; b+=3; b++;
 
 
 ## Relational operators
