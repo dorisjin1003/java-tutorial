@@ -20,12 +20,13 @@ The if statement is a fundamental control flow statement in Java used for decisi
 
 
 ## for loop control
-
+```
 for(loop variable initialization; loop condition; loop variable iteration){
 
     loop operations (multiple statements can be used);
     
 }
+```
 
 ## while loop control
 
