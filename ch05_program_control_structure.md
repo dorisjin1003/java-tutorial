@@ -29,7 +29,7 @@ for(loop variable initialization; loop condition; loop variable iteration){
 ```
 
 ## while loop control
-
+```
 while (loop condition){
 
     loop body (statement);
@@ -37,8 +37,10 @@ while (loop condition){
    loop variable iteration;
   
 }
+```
 
 ## do.while loop control
+```
 do {
 
    loop body (statement);
@@ -46,6 +48,7 @@ do {
    loop variable iteration;
   
 } while (loop condition);
+```
 
 
 ## Jump Control Statement - break
