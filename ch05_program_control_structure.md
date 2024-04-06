@@ -4,7 +4,7 @@
 3. Loop Control
 
 ## If Branch
-
+The if statement is a fundamental control flow statement in Java used for decision-making. It allows you to execute a block of code conditionally based on whether a given condition evaluates to true or false. 
 
 
 ## Switch Branch
