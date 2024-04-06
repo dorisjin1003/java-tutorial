@@ -22,21 +22,30 @@ The if statement is a fundamental control flow statement in Java used for decisi
 ## for loop control
 
 for (loop variable initialization; loop condition; loop variable iteration){
+
     loop operations (multiple statements can be used);
+    
 }
 
 ## while loop control
 
 while (loop condition){
+
   loop body (statement);
+  
   loop variable iteration;
+  
 }
 
 ## do.while loop control
 do {
+
   loop body (statement);
+  
   loop variable iteration;
+  
 } while (loop condition);
+
 
 ## Jump Control Statement - break
 * The break statement is used to terminate the execution of a statement block, typically used in switch or loops (for, while, do-while).
