@@ -5,7 +5,61 @@
 
 ## If Branch
 The if statement is a fundamental control flow statement in Java used for decision-making. It allows you to execute a block of code conditionally based on whether a given condition evaluates to true or false. 
+'''
+import java.util.Scanner;
+public class IfExercise01 {
+class If_01 {
+    public static void main(String[] args){
+        //应该定义一个Scanner 对象
+        Scanner myScanner = new Scanner(System.in); 
+        System.out.println("input age: ");
+        // 用age来接收
+        int age = myScanner.nextInt();
+        if(age > 18) {
+            System.out.println("buy ticket");
+        } else {//双分支
+            System.out.println("no ticket");
+        }
+        System.out.println("process continue");
+    }
+}
+class If_02 {
+    public static void main(String[] args){
+        double t1 = 20.0;
+        double t2 = 15.0;
+        if(t1 > 10.0 && t2 <20.0) {
+            System.out.println("the sum is = " + t1 + t2);
+        } 
+    }
+}
 
+class If_03 {
+    public static void main(String[] args){
+       int a1 = 15;
+       int a2 = 30;
+        if((a1 + a2) % 3 ==0 && (a1 + a2) % 5 ==0) {
+            System.out.println("两个数的和可以既被3又被5整除");
+        } else {
+            System.out.println("两个数的和不能既被3又被5整除");
+        }
+    }
+}
+
+class If_04 {
+    public static void main(String[] args){
+        Scanner myScanner = new Scanner(System.in); 
+        System.out.println("请输入年份");
+        int year = myScanner.nextInt();
+        if( (year % 4 == 00 && year % 100 !=0) || year % 400 == 00) {  //注意这里不是|
+            System.out.println("是闰年");
+        } else {
+            System.out.println("不是闰年");
+        }
+    }
+}
+
+}
+'''
 
 ## Switch Branch
 1. The data type of the expression should match the type of the constants following each case, or it should be a type that can be automatically converted to a type that can be compared with each other. For example, if the input is a character and the constant is an integer.
