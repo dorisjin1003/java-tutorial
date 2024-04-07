@@ -5,7 +5,7 @@
 
 ## If Branch
 The if statement is a fundamental control flow statement in Java used for decision-making. It allows you to execute a block of code conditionally based on whether a given condition evaluates to true or false. 
-'''
+```
 import java.util.Scanner;
 public class IfExercise01 {
 class If_01 {
@@ -59,7 +59,7 @@ class If_04 {
 }
 
 }
-'''
+```
 
 ## Switch Branch
 1. The data type of the expression should match the type of the constants following each case, or it should be a type that can be automatically converted to a type that can be compared with each other. For example, if the input is a character and the constant is an integer.
