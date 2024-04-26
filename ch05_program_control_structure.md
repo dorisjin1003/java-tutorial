@@ -72,6 +72,30 @@ class If_04 {
 
 5. The break statement is used to exit the switch block after executing a case branch. If break is not used, the program will continue to execute sequentially until the end of the switch block, unless it encounters a break statement.
 
+```
+import java.util.Scanner;
+public class Switch02 {
+    public static void main(String[] args) {
+        Scanner myScanner = new Scanner(System.in);
+        System.out.println("please input a character(a-c)");
+        char c1 = myScanner.next().charAt(0);
+        switch (c1) {
+            case 'a':
+                System.out.println("Monday");
+                break;
+            case 'b':
+                System.out.println("Tuesday");
+                break;
+            case 'c':
+                System.out.println("Wednesday");
+                break;
+            default:
+                System.out.println("wrong input");
+        }
+        System.out.println("exit procedure");
+    }
+}
+```
 
 ## for loop control
 ```
